@@ -139,19 +139,23 @@ def main(training)
 ```
 git clone git@github.com:Ekaterina110697/hw_python_oop.git
 ```
-Установите и активируйте виртуальное окружение:
+Cоздать и активировать виртуальное окружение:
 
-для MacOS
 ```
-python3 -m venv venv
+python -m venv env
 ```
-для Windows
+
 ```
-python -m venv venv
-source venv/bin/activate
-source venv/Scripts/activate
+source venv\Scripts\activate  
 ```
-Установите зависимости из файла requirements.txt:
+
+Установить зависимости из файла requirements.txt:
+
+```
+python -m pip install --upgrade pip
+```
+
 ```
 pip install -r requirements.txt
 ```
+
